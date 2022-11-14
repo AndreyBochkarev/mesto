@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Место</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__logo" src="images/header__logo.jpg" alt="Логотип Место Россия">
+  </header>
+  <main class="content">
+    <section class="profile">
+      <img class="profile__avatar" src="images/profile__avatar.jpg" alt="Кусто">
+      <div class="profile__info">
+        <h1 class="profile__name">Жак-Ив Кусто</h1>
+        <p class="profile__profession">Исследователь океана</p>
+        <button type="button" class="profile__edit"></button>
+      </div>
+      <button type="button" class="profile__add"></button>
+    </section>
+    <section class="places">
+      <div class="place">
+        <img class="place__image" src="images/place-crimea.jpg" alt="Крым">
+        <div class="place__item">
+          <h2 class="place__title">Крым</h2>
+          <button type="button" class="place__like"></button>
+        </div>
+      </div>
+      <div class="place">
+        <img class="place__image" src="images/place-iremel.JPG" alt="Иремель">
+        <div class="place__item">
+          <h2 class="place__title">Иремель</h2>
+          <button type="button" class="place__like"></button>
+        </div>
+      </div>
+      <div class="place">
+        <img class="place__image" src="images/place-petersburg.JPG" alt="Петербург">
+        <div class="place__item">
+          <h2 class="place__title">Петербург</h2>
+          <button type="button" class="place__like"></button>
+        </div>
+      </div>
+      <div class="place">
+        <img class="place__image" src="images/place-taganay.JPG" alt="Таганай">
+        <div class="place__item">
+          <h2 class="place__title">Таганай</h2>
+          <button type="button" class="place__like"></button>
+        </div>
+      </div>
+      <div class="place">
+        <img class="place__image" src="images/place-turgoyak.JPG" alt="Тургояк">
+        <div class="place__item">
+          <h2 class="place__title">Тургояк</h2>
+          <button type="button" class="place__like"></button>
+        </div>
+      </div>
+      <div class="place">
+        <img class="place__image" src="images/place-vyborg.JPG" alt="Выборг">
+        <div class="place__item">
+          <h2 class="place__title">Выборг</h2>
+          <button type="button" class="place__like"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">2022. Андрей Бочкарёв</p>
+  </footer>
+  <div class="popup">
+    <div class="popup__box">
+      <button type="button" class="popup__closed" aria-label="Закрыть"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form">
+        <input class="popup__input popup__input_name" name="name" type="text" placeholder="Имя">
+        <input class="popup__input popup__input_profession" name="profession" type="text" placeholder="Профессия">
+        <button type="submit" class="popup__submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
