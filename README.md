@@ -4,3 +4,4 @@
 
 Используются адаптивная верстка и JavaScript
 
+https://andreybochkarev.github.io/mesto/index.html
