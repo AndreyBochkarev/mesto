@@ -4,11 +4,12 @@
   height: 50px;
   padding: 0;
   background-image: url(../../../images/profile__add.svg);
-  background-color: black;
-  border: 2px solid white;
+  background-color: rgb(0,0,0);
+  border: 2px solid rgb(255,255,255);
   border-radius: 2px;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .profile__add:hover {

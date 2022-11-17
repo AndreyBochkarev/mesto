@@ -3,10 +3,10 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  color: #545454;
+  color: rgb(84,84,84);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 17px;
